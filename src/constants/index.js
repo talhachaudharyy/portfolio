@@ -1,6 +1,8 @@
 import {
     mobile,
     backend,
+    landingpage,
+    netflix,
     creator,
     web,
     javascript,
@@ -23,6 +25,7 @@ import {
     jobit,
     tripguide,
     threejs,
+    store,
   } from "../assets";
   
   export const navLinks = [
@@ -198,7 +201,7 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Car Showroom",
       description:
         "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
       tags: [
@@ -207,7 +210,7 @@ import {
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "django",
           color: "green-text-gradient",
         },
         {
@@ -219,16 +222,16 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "Ecommerce Store",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Ecommerce store that helps the people to buy the daily life products and have the amazing user Interface. I have added the payment gateway for the purchasing.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "stripe",
           color: "green-text-gradient",
         },
         {
@@ -236,29 +239,29 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: store,
+      source_code_link: "https://ecommerce-stripe-vekd.vercel.app/",
     },
     {
-      name: "Trip Guide",
+      name: "Netflix clone",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "This is the netflix clone that same exactly looks like the netflix. In this app you can see the latest movies trailers of netlfix for free and I have used the tmdb apis for this.",
       tags: [
         {
-          name: "nextjs",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "TMDBapis",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "Tailwindcss",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: netflix,
+      source_code_link: "https://netflix-clone-9f83e.web.app/",
     },
   ];
   

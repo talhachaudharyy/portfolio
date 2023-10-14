@@ -26,11 +26,16 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
+import carrent from "./carrents.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-
+import landingpage from './landingpage.png';
+import netflix from './netflix.jpg';
+import store from './ecommerce.png';
 export {
+  landingpage,
+  netflix,
+  store,
   logo,
   backend,
   creator,
